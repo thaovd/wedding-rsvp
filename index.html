@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding - Vũ Thảo & Trần Huệ</title>    <link rel="stylesheet" href="style.css?v=20250623001">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slideshow">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1920&h=1080&fit=crop')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1920&h=1080&fit=crop')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=1920&h=1080&fit=crop')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <div class="wedding-rings">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h1 class="couple-names">
+                <span class="bride-name slide-in-left">Trần Huệ</span>
+                <span class="and pulse-fade">>&</span>
+                <span class="groom-name slide-in-right">Vũ Thảo</span>
+            </h1>
+            <p class="wedding-date fade-in-up delay-1">25 • 12 • 2025</p>
+            <p class="wedding-subtitle fade-in-up delay-2">Chúng tôi kết hôn!</p>
+            <button class="cta-button fade-in-up delay-3" onclick="scrollToSection('invitation')">
+                <i class="fas fa-envelope"></i>
+                Xem Thiệp Cưới
+            </button>
+        </div>
+        <div class="floating-hearts">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+        <!-- Falling Petals -->
+        <div class="falling-petals"></div>
+    </section>    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo scroll-animate slide-in-left">
+                <i class="fas fa-heart"></i>
+                <span>T&T</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="scroll-animate slide-in-down delay-1"><a href="#hero" onclick="scrollToSection('hero')">Trang chủ</a></li>
+                <li class="scroll-animate slide-in-down delay-2"><a href="#invitation" onclick="scrollToSection('invitation')">Thiệp cưới</a></li>
+                <li class="scroll-animate slide-in-down delay-3"><a href="#story" onclick="scrollToSection('story')">Câu chuyện</a></li>
+                <li class="scroll-animate slide-in-down delay-4"><a href="#gallery" onclick="scrollToSection('gallery')">Album</a></li>
+                <li class="scroll-animate slide-in-down delay-5"><a href="#details" onclick="scrollToSection('details')">Chi tiết</a></li>
+                <li class="scroll-animate slide-in-down delay-6"><a href="#rsvp" onclick="scrollToSection('rsvp')">Xác nhận</a></li>
+            </ul>
+            <div class="hamburger scroll-animate slide-in-right">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav><!-- Invitation Section -->
+    <section id="invitation" class="invitation">
+        <div class="container">            <div class="invitation-card scroll-animate fade-in-up">
+                <div class="card-header scroll-animate zoom-in delay-1">
+                    <div class="ornament top scroll-animate slide-in-left delay-2"></div>
+                    <h2 class="scroll-animate slide-in-down delay-3">Thiệp Mời Cưới</h2>
+                    <div class="ornament bottom scroll-animate slide-in-right delay-2"></div>
+                </div>                <div class="card-content">
+                    <p class="invitation-text scroll-animate fade-in-up delay-4">
+                        Với niềm hạnh phúc vô bờ, chúng tôi trân trọng kính mời bạn<br>
+                        đến dự lễ cưới của chúng tôi
+                    </p>
+                    <div class="couple-info scroll-animate fade-in-up delay-5">
+                        <div class="bride-info scroll-animate slide-in-left delay-6">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616c27b3e91?w=200&h=200&fit=crop&crop=face" alt="Cô dâu" class="couple-photo scroll-animate zoom-in delay-7">
+                            <h3 class="scroll-animate fade-in-up delay-8">Trần Minh Anh</h3>
+                            <p class="scroll-animate fade-in-up delay-9">Con gái của<br>Ông Trần Văn Nam<br>Bà Nguyễn Thị Lan</p>
+                        </div>
+                        <div class="heart-divider scroll-animate zoom-in delay-10">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="groom-info scroll-animate slide-in-right delay-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Chú rể" class="couple-photo scroll-animate zoom-in delay-7">
+                            <h3 class="scroll-animate fade-in-up delay-8">Nguyễn Đức Minh</h3>
+                            <p class="scroll-animate fade-in-up delay-9">Con trai của<br>Ông Nguyễn Văn Hùng<br>Bà Lê Thị Mai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Love Story Section -->
+    <section id="story" class="story">
+        <div class="container">
+            <h2 class="section-title scroll-animate fade-in-up">Câu Chuyện Tình Yêu</h2>
+            <div class="timeline">                <div class="timeline-item scroll-animate slide-in-left">
+                    <div class="timeline-icon scroll-animate zoom-in delay-1">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="timeline-content scroll-animate fade-in-up delay-2">
+                        <h3 class="scroll-animate slide-in-right delay-3">Lần Đầu Gặp Nhau</h3>
+                        <span class="timeline-date scroll-animate fade-in-up delay-4">14/02/2020</span>
+                        <p class="scroll-animate slide-in-up delay-5">Chúng tôi gặp nhau lần đầu tiên tại một quán cà phê nhỏ. Ánh mắt đầu tiên đã khiến trái tim chúng tôi rung động.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate slide-in-right delay-1">
+                    <div class="timeline-icon scroll-animate zoom-in delay-2">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="timeline-content scroll-animate fade-in-up delay-3">
+                        <h3 class="scroll-animate slide-in-left delay-4">Tỏ Tình</h3>
+                        <span class="timeline-date scroll-animate fade-in-up delay-5">20/10/2020</span>
+                        <p class="scroll-animate slide-in-up delay-6">Dưới ánh trăng tròn, anh đã cầu hôn em với một bó hoa hồng và lời yêu chân thành nhất.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate slide-in-left delay-2">
+                    <div class="timeline-icon scroll-animate zoom-in delay-3">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <div class="timeline-content scroll-animate fade-in-up delay-4">
+                        <h3 class="scroll-animate slide-in-right delay-5">Đính Hôn</h3>
+                        <span class="timeline-date scroll-animate fade-in-up delay-6">08/03/2023</span>
+                        <p class="scroll-animate slide-in-up delay-7">Chúng tôi đã chính thức đính hôn trong sự chứng kiến của hai gia đình và bạn bè thân thiết.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate slide-in-right delay-3">
+                    <div class="timeline-icon scroll-animate zoom-in delay-4">
+                        <i class="fas fa-church"></i>
+                    </div>
+                    <div class="timeline-content scroll-animate fade-in-up delay-5">
+                        <h3 class="scroll-animate slide-in-left delay-6">Đám Cưới</h3>
+                        <span class="timeline-date scroll-animate fade-in-up delay-7">25/12/2025</span>
+                        <p class="scroll-animate slide-in-up delay-8">Ngày hạnh phúc nhất cuộc đời chúng tôi sắp đến. Chúng tôi sẽ trao lời thề vĩnh cửu trước mặt mọi người.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="falling-petals"></div>
+    </section>    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title scroll-animate fade-in-up">Album Ảnh</h2>
+            <div class="gallery-grid">                <div class="gallery-item scroll-animate zoom-in delay-1" onclick="openModal(0)">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=600&fit=crop" alt="Wedding Photo 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-2"></i>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate zoom-in delay-2" onclick="openModal(1)">
+                    <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=600&fit=crop" alt="Wedding Photo 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-3"></i>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate zoom-in delay-3" onclick="openModal(2)">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&h=600&fit=crop" alt="Wedding Photo 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-4"></i>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate zoom-in delay-4" onclick="openModal(3)">
+                    <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&h=600&fit=crop" alt="Wedding Photo 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-5"></i>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate zoom-in delay-5" onclick="openModal(4)">
+                    <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=400&h=600&fit=crop" alt="Wedding Photo 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-6"></i>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate zoom-in delay-6" onclick="openModal(5)">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=400&h=600&fit=crop" alt="Wedding Photo 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus scroll-animate bounce-in delay-7"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="falling-petals"></div>
+    </section>    <!-- Wedding Details Section -->
+    <section id="details" class="details">
+        <div class="container">
+            <h2 class="section-title scroll-animate fade-in-up">Chi Tiết Lễ Cưới</h2>
+            <div class="details-grid">                <div class="detail-card scroll-animate slide-in-left delay-1">
+                    <div class="detail-icon scroll-animate zoom-in delay-2">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="scroll-animate fade-in-up delay-3">Thời Gian</h3>
+                    <p class="scroll-animate slide-in-up delay-4"><strong>Chủ nhật, 20 tháng 7, 2025</strong></p>
+                    <p class="scroll-animate slide-in-up delay-5">Lễ cưới: 14:00 AM</p>
+                    <p class="scroll-animate slide-in-up delay-6">Tiệc cưới: 15:00 AM</p>
+                    <div class="countdown scroll-animate zoom-in delay-7" id="countdown">
+                        <div class="countdown-item scroll-animate bounce-in delay-8">
+                            <span id="days">00</span>
+                            <label>Ngày</label>
+                        </div>
+                        <div class="countdown-item scroll-animate bounce-in delay-9">
+                            <span id="hours">00</span>
+                            <label>Giờ</label>
+                        </div>
+                        <div class="countdown-item scroll-animate bounce-in delay-10">
+                            <span id="minutes">00</span>
+                            <label>Phút</label>
+                        </div>
+                        <div class="countdown-item scroll-animate bounce-in delay-10">
+                            <span id="seconds">00</span>
+                            <label>Giây</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-card scroll-animate fade-in-up delay-2">
+                    <div class="detail-icon scroll-animate zoom-in delay-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="scroll-animate fade-in-up delay-4">Địa Điểm</h3>
+                    <p class="scroll-animate slide-in-up delay-5"><strong>Trung Tâm Hội Nghị Diamond</strong></p>
+                    <p class="scroll-animate slide-in-up delay-6">123 Đường Nguyễn Du</p>
+                    <p class="scroll-animate slide-in-up delay-7">Quận 1, TP.HCM</p>
+                    <button class="map-button scroll-animate bounce-in delay-8" onclick="openMap()">
+                        <i class="fas fa-directions"></i>
+                        Xem Bản Đồ
+                    </button>
+                </div>
+                <div class="detail-card scroll-animate slide-in-right delay-3">
+                    <div class="detail-icon scroll-animate zoom-in delay-4">
+                        <i class="fas fa-gift"></i>
+                    </div>                    <h3 class="scroll-animate fade-in-up delay-5">Mừng Cưới</h3>
+                    <p class="scroll-animate slide-in-up delay-6">Tình cảm quý báu hơn vàng bạc</p>
+                    <p class="scroll-animate slide-in-up delay-7">Nếu công việc khiến bạn không thể tham gia:</p>
+                    
+                    <div class="bank-accounts scroll-animate fade-in-up delay-8">
+                        <!-- Tài khoản nhà gái -->
+                        <div class="bank-account bride-account scroll-animate slide-in-left delay-9">
+                            <h4><i class="fas fa-female"></i> Nhà Gái</h4>
+                            <div class="bank-info">
+                                <p><strong>TP Bank:</strong> 0355233332</p>
+                                <p><strong>Chủ TK:</strong> TRAN THI HUE</p>
+                            </div>
+                            <div class="qr-code">
+                                <img src="https://img.vietqr.io/image/TPB-0355233332-qr.png" alt="QR Code Nhà Gái" class="qr-image">
+                            </div>
+                            <button class="copy-button bride-copy" onclick="copyBankInfo('bride')">
+                                <i class="fas fa-copy"></i>
+                                Sao Chép STK
+                            </button>
+                        </div>
+                        
+                        <!-- Tài khoản nhà trai -->
+                        <div class="bank-account groom-account scroll-animate slide-in-right delay-10">
+                            <h4><i class="fas fa-male"></i> Nhà Trai</h4>
+                            <div class="bank-info">
+                                <p><strong>TP Bank:</strong> 0964710413</p>
+                                <p><strong>Chủ TK:</strong> VU DUY THAO</p>
+                            </div>
+                            <div class="qr-code">
+                                <img src="https://img.vietqr.io/image/TPB-0964710413-qr.png" alt="QR Code Nhà Trai" class="qr-image">
+                            </div>
+                            <button class="copy-button groom-copy" onclick="copyBankInfo('groom')">
+                                <i class="fas fa-copy"></i>
+                                Sao Chép STK
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="falling-petals"></div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp">        <div class="container">
+            <h2 class="section-title scroll-animate fade-in-up">Xác Nhận Tham Dự</h2>
+            <div class="rsvp-form scroll-animate zoom-in delay-1">                <form id="rsvpForm">
+                    <div class="form-group scroll-animate slide-in-left delay-2">
+                        <label for="name">Họ và Tên *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group scroll-animate slide-in-right delay-3">
+                        <label for="phone">Số Điện Thoại</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group scroll-animate slide-in-left delay-4">
+                        <label for="guests">Số Người Tham Dự</label>
+                        <select id="guests" name="guests">
+                            <option value="1">1 người</option>
+                            <option value="2">2 người</option>
+                            <option value="3">3 người</option>
+                            <option value="4">4 người</option>
+                            <option value="5+">5+ người</option>
+                        </select>
+                    </div>
+                    <div class="form-group scroll-animate slide-in-right delay-5">
+                        <label for="attendance">Tham Dự</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="yes" checked>
+                                <span>Sẽ tham dự</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="no">
+                                <span>Không thể tham dự</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group scroll-animate fade-in-up delay-6">
+                        <label for="message">Lời Chúc</label>
+                        <textarea id="message" name="message" placeholder="Gửi lời chúc tốt đẹp đến cô dâu chú rể..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button scroll-animate zoom-in delay-7">
+                        <i class="fas fa-paper-plane"></i>
+                        Gửi Xác Nhận
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="falling-petals"></div>
+    </section>    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content scroll-animate fade-in-up">
+                <div class="footer-heart scroll-animate zoom-in delay-1">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <p class="scroll-animate slide-in-left delay-2">Cảm ơn bạn đã đồng hành cùng chúng tôi trong ngày trọng đại này!</p>
+                <p class="scroll-animate slide-in-right delay-3">&copy; 2025 ❤️ vuthao.id.vn</p>
+            </div>
+        </div>
+        <div class="falling-petals"></div>
+    </footer>
+
+    <!-- Modal for Gallery -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Wedding Photo">
+            <div class="modal-nav">
+                <button class="modal-prev" onclick="prevImage()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="modal-next" onclick="nextImage()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>    <!-- Floating Action Buttons -->
+    <div class="floating-actions scroll-animate fade-in-up">
+        <div class="floating-action wish-action scroll-animate zoom-in delay-1" onclick="openWishModal()" title="Gửi lời chúc">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="floating-action rsvp-action scroll-animate zoom-in delay-2" onclick="scrollToSection('rsvp')" title="Xác nhận tham dự">
+            <i class="fas fa-calendar-check"></i>
+        </div>
+        <div class="floating-action gift-action scroll-animate zoom-in delay-3" onclick="openGiftModal()" title="Mừng cưới">
+            <i class="fas fa-gift"></i>
+        </div>
+    </div><!-- Wish Modal -->
+    <div id="wishModal" class="wish-modal">
+        <div class="wish-modal-content">
+            <div class="wish-modal-header scroll-animate slide-in-down">
+                <h3 class="scroll-animate fade-in-up delay-1"><i class="fas fa-heart"></i> Gửi Lời Chúc</h3>
+                <button class="wish-close scroll-animate zoom-in delay-2" onclick="closeWishModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="wish-modal-body scroll-animate fade-in-up delay-1">
+                <form id="wishForm">
+                    <div class="form-group scroll-animate slide-in-left delay-2">
+                        <label for="wishName">Họ và Tên</label>
+                        <input type="text" id="wishName" name="wishName" required>
+                    </div>
+                    <div class="form-group scroll-animate slide-in-right delay-3">
+                        <label for="wishMessage">Lời Chúc</label>
+                        <textarea id="wishMessage" name="wishMessage" placeholder="Gửi lời chúc tốt đẹp đến cô dâu chú rể..." required></textarea>
+                    </div>
+                    <button type="submit" class="wish-submit-btn scroll-animate bounce-in delay-4">
+                        <i class="fas fa-paper-plane"></i>
+                        Gửi Lời Chúc
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gift Modal -->
+    <div id="giftModal" class="gift-modal">
+        <div class="gift-modal-content">
+            <div class="gift-modal-header scroll-animate slide-in-down">
+                <h3 class="scroll-animate fade-in-up delay-1"><i class="fas fa-gift"></i> Thông Tin Mừng Cưới</h3>
+                <button class="gift-close scroll-animate zoom-in delay-2" onclick="closeGiftModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>            <div class="gift-modal-body scroll-animate fade-in-up delay-1">
+                <div class="gift-info">
+                    <p class="gift-message scroll-animate slide-in-left delay-2">Tình cảm quý báu hơn vàng bạc</p>
+                    <p class="scroll-animate slide-in-right delay-3">Nếu muốn gửi mừng cưới:</p>
+                    
+                    <div class="bank-accounts-modal scroll-animate zoom-in delay-4">
+                        <!-- Tài khoản nhà gái -->
+                        <div class="bank-account-modal bride-modal scroll-animate fade-in-up delay-5">
+                            <h4><i class="fas fa-female"></i> Nhà Gái</h4>
+                            <div class="bank-details">
+                                <div class="bank-item scroll-animate fade-in-up delay-6">
+                                    <strong>Ngân hàng:</strong> TP Bank
+                                </div>
+                                <div class="bank-item scroll-animate fade-in-up delay-7">
+                                    <strong>Số tài khoản:</strong> 0355233332
+                                </div>
+                                <div class="bank-item scroll-animate fade-in-up delay-8">
+                                    <strong>Chủ tài khoản:</strong> TRAN THI HUE
+                                </div>
+                            </div>
+                            <div class="qr-code-modal">
+                                <img src="https://img.vietqr.io/image/TPB-0355233332-qr.png" alt="QR Code Nhà Gái" class="qr-image-modal">
+                            </div>
+                            <button class="copy-bank-btn bride-copy-modal scroll-animate bounce-in delay-9" onclick="copyBankInfo('bride')">
+                                <i class="fas fa-copy"></i>
+                                Sao Chép Thông Tin
+                            </button>
+                        </div>
+                        
+                        <!-- Tài khoản nhà trai -->
+                        <div class="bank-account-modal groom-modal scroll-animate fade-in-up delay-10">
+                            <h4><i class="fas fa-male"></i> Nhà Trai</h4>
+                            <div class="bank-details">
+                                <div class="bank-item scroll-animate fade-in-up delay-11">
+                                    <strong>Ngân hàng:</strong> TP Banl
+                                </div>
+                                <div class="bank-item scroll-animate fade-in-up delay-12">
+                                    <strong>Số tài khoản:</strong> 0964710413
+                                </div>
+                                <div class="bank-item scroll-animate fade-in-up delay-13">
+                                    <strong>Chủ tài khoản:</strong> VU DUY THAO
+                                </div>
+                            </div>
+                            <div class="qr-code-modal">
+                                <img src="https://img.vietqr.io/image/TPB-0964710413-qr.png" alt="QR Code Nhà Trai" class="qr-image-modal">
+                            </div>
+                            <button class="copy-bank-btn groom-copy-modal scroll-animate bounce-in delay-14" onclick="copyBankInfo('groom')">
+                                <i class="fas fa-copy"></i>
+                                Sao Chép Thông Tin
+                            </button>
+                        </div>
+                    </div>
+                </div></div>
+        </div>
+    </div>    <script src="script.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>
