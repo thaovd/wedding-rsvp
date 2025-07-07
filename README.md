@@ -1,4 +1,3 @@
-# Hướng dẫn cài đặt Wedding Website với PHP & MySQL
 
 ## Yêu cầu hệ thống
 - PHP 7.4+ 
@@ -100,40 +99,6 @@ wedding-website/
 - ✅ Chống spam (rate limiting)
 - ✅ Lọc XSS và SQL injection
 
-## Troubleshooting
-
-### Lỗi kết nối database:
-1. Kiểm tra MySQL có chạy không
-2. Kiểm tra thông tin kết nối trong `config/database.php`
-3. Đảm bảo database đã được tạo
-
-### Lỗi 404 khi truy cập admin:
-1. Kiểm tra file `.htaccess` có tồn tại không
-2. Bật `mod_rewrite` trong Apache
-3. Kiểm tra quyền thư mục
-
-### Lỗi gửi form:
-1. Kiểm tra đường dẫn API có đúng không
-2. Kiểm tra CORS headers
-3. Xem log lỗi PHP
-
-## Tùy chỉnh
-
-### Thay đổi thông tin cưới:
-- Chỉnh sửa file `index.html`
-- Cập nhật tên cô dâu chú rể
-- Thay đổi ngày cưới, địa điểm
-- Cập nhật thông tin bank
-
-### Thay đổi ảnh:
-- Thay thế URL ảnh trong `index.html`
-- Hoặc upload ảnh lên server và đổi đường dẫn
-
-### Tùy chỉnh giao diện:
-- Chỉnh sửa file `style.css`
-- Thay đổi màu sắc, font chữ
-- Tùy chỉnh animation effects
-
 ## Bảo mật
 
 ### Các biện pháp đã áp dụng:
@@ -144,20 +109,3 @@ wedding-website/
 - ✅ Session security
 - ✅ Input validation
 
-### Khuyến nghị bổ sung:
-- Đổi mật khẩu admin mặc định
-- Sử dụng HTTPS
-- Backup database định kỳ
-- Cập nhật PHP/MySQL thường xuyên
-
-## Hỗ trợ
-
-Nếu gặp vấn đề, vui lòng:
-1. Kiểm tra log lỗi Apache/PHP
-2. Đảm bảo requirements đã đủ
-3. Kiểm tra cấu hình database
-4. Liên hệ developer để được hỗ trợ
-
----
-
-🎉 **Chúc mừng! Website cưới của bạn đã sẵn sàng!** 💕
